@@ -7,19 +7,25 @@
     <title>Days Counter</title>
 </head>
 <body>
-    <div class="displayers">
-        <h1  id="displayer">0</h1>
+     <div id="displayers">
+         <button onclick="convertButton()" id="converterButton">Convert</button>
 
-        <div class="rowCounter">
-            <h3 class="h3" id="weekCounter">0 :Weeks</h3>
+         <div id="inputDivs" class="remover">
+            <input type="date" id="dateInput">
+         </div>
+         <h1 class="remover" id="displayer">0</h1> 
+           <div id="rowCounterDiv" class="remover rowCounter" >
+              <h3 class="h3 remover" id="weekCounter">0 :Week</h3>
             
-            <h3 class="h3" id="monthCounter">0 :Months</h3>
-            <h3 class="h3" id="yearCounter">0 :Years</h3>
-        </div>
+              <h3 class="h3 remover" id="monthCounter">0 :Month</h3>
+              <h3 class="h3 remover" id="yearCounter">0 :Year</h3>
+           </div>
        
-        <div class="">
-            <button onclick="counter()" id="add">Add</button>
-        </div>
+           <div id="noneDiv" class="none remover">
+              <button onclick="counter()" id="add">Add</button>
+             
+           </div>
+           
      </div>
    
  

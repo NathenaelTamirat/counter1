@@ -3,22 +3,21 @@
     padding: 0
     ;
     box-sizing: border-box;
-
-
-
 }
 
 body{
     background: #001e4e;
 }
-
-.displayers{
+.remover{
+  display: none; 
+   
+}
+#displayers{
     background: #fff;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
- 
 
 }
 
@@ -26,8 +25,7 @@ body{
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
-    border-bottom: 1px solid black;
-    
+    border-bottom: 1px solid black; 
 }
 .rowCounter{
     display: flex;
@@ -36,21 +34,15 @@ body{
   justify-content: space-evenly;
   margin-top: 20px;
   color: rgb(84, 82, 82);
-  
-
 }
 .h3{
    width: 100px;
 }
 
 #add{
-    
-    border-radius: 5px;
-    font-size: 40 px
-    ;
-   
+      border-radius: 5px;
+    font-size: 40 px;
     color:white;
-   
     border-color: white;
    margin-top: 30px;
    margin-left: 220px;
@@ -59,17 +51,31 @@ body{
     padding: 10px 25px;
     font-weight: bold;
     transition: .3s;
-
 }
 #add:hover{
     background-color: #001e4e;
     border-radius: 5px;
-    font-size: 40 px
-    ;
+    font-size: 40 px ;
     color: white;
     margin-top: 30px;
     margin-left: 220px;
-    /* flex-direction: row; */
     padding: 12px 27px;
 
+}
+#dateInput{
+    font-size: 30px;
+    display: flex;
+    margin: 5% 0 5% 25%;
+}
+#converterButton{
+    border-radius: 5px;
+    font-size: 40 px;
+    color:white;
+    border-color: white;
+   margin: 0 0 0 80%;
+    background-color: #1249a1;
+   text-align: center;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: .3s;
 }
